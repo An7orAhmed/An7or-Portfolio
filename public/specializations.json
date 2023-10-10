@@ -1,0 +1,30 @@
+[
+  {
+    "area": "Full-Stack Web Developer",
+    "info": "Adept in web development, I bring digital visions to life through captivating and user-centric online experiences.",
+    "link": "https://github.com/An7orAhmed?tab=repositories&q=&type=public&language=html",
+    "count": "10+ Projects",
+    "img": "/icons/web-50.png"
+  },
+  {
+    "area": "Flutter Developer",
+    "info": "Proficient in Flutter, I craft captivating mobile experiences that bridge imagination and technology.",
+    "link": "https://github.com/An7orAhmed?tab=repositories&q=&type=public&language=dart",
+    "count": "10+ Projects",
+    "img": "/icons/flutter-50.png"
+  },
+  {
+    "area": "Embedded System Developer",
+    "info": "Skilled in embedded system development, I transform concepts into functional realities, merging innovation with technology.",
+    "link": "https://photos.app.goo.gl/8RRP1aVtpWSYweiw5",
+    "count": "50+ Projects",
+    "img": "/icons/chip-50.png"
+  },
+  {
+    "area": "Desktop Application Developer",
+    "info": "Skilled in C#-based desktop application development and adept in Python scripting, I specialize in creating powerful and versatile software solutions.",
+    "link": "https://github.com/An7orAhmed?tab=repositories&q=&type=public&language=c%23",
+    "count": "10+ Projects",
+    "img": "/icons/desktop-60.png"
+  }
+]

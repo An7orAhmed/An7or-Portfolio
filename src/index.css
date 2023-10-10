@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Play', sans-serif;
+}
+
+.animate-spin-slow {
+  animation: spin 5s linear infinite;
+}

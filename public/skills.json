@@ -1,0 +1,42 @@
+[
+  {
+    "skill": "C++",
+    "img": "/icons/cpp.png"
+  },
+  {
+    "skill": "C#",
+    "img": "/icons/cs-100.png"
+  },
+  {
+    "skill": "Arduino",
+    "img": "/icons/board-100.png"
+  },
+  {
+    "skill": "Flutter",
+    "img": "/icons/flutter-100.png"
+  },
+  {
+    "skill": "React",
+    "img": "/icons/react-100.png"
+  },
+  {
+    "skill": "Python",
+    "img": "/icons/python-100.png"
+  },
+  {
+    "skill": "Git",
+    "img": "/icons/git-100.png"
+  },
+  {
+    "skill": "Firebase",
+    "img": "/icons/firebase-100.png"
+  },
+  {
+    "skill": "MySQL",
+    "img": "/icons/mysql-100.png"
+  },
+  {
+    "skill": "Figma",
+    "img": "/icons/figma-100.png"
+  }
+]
