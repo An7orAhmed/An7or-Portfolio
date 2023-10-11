@@ -37,9 +37,8 @@ const ProjectView = ({ data }) => {
     <div data-aos="fade-right" className="card border-2 border-gray-500 h-fit transition-all">
       <figure className="relative">
         {
-          imgs && imgs.map((img, id) => <img key={id} className="h-auto max-w-full" src={img} />)
+          imgs && imgs.map((img, id) => <img key={id} onClick={() => window.location = img} className="h-auto max-w-full" src={img} />)
         }
-        <div className="absolute w-full h-full hover:bg-background opacity-50 transition-all"></div>
         <div className="absolute flex flex-wrap gap-3 bottom-3 right-3">
           {
             tags && tags.map((tag, id) => <p key={id} className="py-2 px-4 bg-background opacity-50 hover:opacity-100 rounded-lg">{tag}</p>)
