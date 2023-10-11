@@ -8,10 +8,13 @@ import Skills from "../components/Skills";
 import Specialization from './../components/Specialization';
 import "aos/dist/aos.css";
 import Aos from "aos";
+import Portfolio from "../components/Portfolio";
+import Testimonials from "../components/Testimonial";
+import Contact from "../components/Contact";
 
 function Home() {
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    Aos.init({ duration: 1500 });
   }, []);
 
   return (
@@ -24,7 +27,9 @@ function Home() {
         <Education></Education>
         <Specialization></Specialization>
         <Skills></Skills>
-        
+        <Portfolio></Portfolio>
+        <Testimonials></Testimonials>
+        <Contact></Contact> 
       </main>
     </div>
   );

@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Spring Dyno",
+    "description": "A flutter application designed for the purpose of controlling and monitoring weight scales.",
+    "tags": ["Flutter", "Desktop", "ESP32", "Electronics"],
+    "imgs": ["/projects/spring-dyno.png"],
+    "link" : ""
+  },
+  {
+    "title": "News App",
+    "description": "A dynamic Flutter application designed for staying informed and up-to-date with the latest news from around the world.",
+    "tags": ["Flutter", "News", "REST-API"],
+    "imgs": ["/projects/news-app.jpeg"],
+    "link" : "https://github.com/An7orAhmed/icare_news_app"
+  },
+  {
+    "title": "Susastho Health App",
+    "description": "The Susastho Health App is a revolutionary Flutter application designed to simplify the process of seeking medical advice and conducting health checkups.",
+    "tags": ["Flutter", "Firebase", "Admin"],
+    "imgs": ["/projects/susastho.png"],
+    "link" : "https://github.com/An7orAhmed/Susastho-App"
+  },
+  {
+    "title": "IoT Smart Home",
+    "description": "A versatile Flutter application designed to bring modern technology and convenience to your living space.",
+    "tags": ["Flutter", "Firebase", "ESP32", "BLE"],
+    "imgs": ["/projects/smart-home.png"],
+    "link" : ""
+  }
+]
