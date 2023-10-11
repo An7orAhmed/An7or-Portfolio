@@ -30,11 +30,25 @@ function Education() {
 
 const EducatuionView = ({ data }) => {
   const { time, where, position, info } = data;
+  const defStyle = {
+    div: "bg-gray-700",
+    text: "text-gray-500"
+  };
+  const [style, setStyle] = useState(defStyle);
+
+  const handleHover = () => {
+    setStyle({
+      div: "bg-secondary",
+      text: "text-secondary"
+    });
+  }
+  const handleRestore = () => setStyle(defStyle);
+
   return (
-    <li className="ml-16" data-aos="fade-left">
-      <div className="absolute w-4 h-4 rounded-full mt-[13px] -left-[72px] border border-gray-900 bg-gray-700">
+    <li className="ml-16" data-aos="fade-left" onMouseEnter={handleHover} onMouseLeave={handleRestore}>
+      <div className={style.div + " absolute w-4 h-4 rounded-full mt-[13px] -left-[72px] border border-gray-900"}>
       </div>
-      <time className="mb-1 text-sm font-normal leading-10 text-gray-500">{time}</time>
+      <time className={style.text + " mb-1 text-sm font-normal leading-10"}>{time}</time>
       <h3 className="text-3xl font-light text-gray-900 leading-10 dark:text-white">{where}</h3>
       <p className="text-xl font-normal text-gray-500 leading-10 dark:text-gray-400">{position}</p>
       <p className="text-base font-normal text-gray-500 dark:text-gray-400 italic">{info}</p>

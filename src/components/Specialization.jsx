@@ -34,7 +34,7 @@ const SpecialView = ({ data }) => {
       <div className="flex flex-col gap-3 items-stretch">
         <h1 className="text-2xl">{area}</h1>
         <p className="text-gray-500 text-justify">{info}</p>
-        <a href={link} className="border-[1px] border-gray-700 hover:border-primary rounded-full px-7 py-4 mr-auto">{count}</a>
+        <a href={link} className="border-2 border-gray-700 hover:border-secondary rounded-full px-7 py-4 mr-auto">{count}</a>
       </div>
       <img src={img} alt="" width="32px"></img>
     </div>

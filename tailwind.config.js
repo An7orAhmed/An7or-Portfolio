@@ -12,7 +12,7 @@ export default {
         primary: '#6B3280',
         secondary: '#E040FB',
         background: '#201f20',
-      }
+      },
     },
   },
   plugins: [daisyui],

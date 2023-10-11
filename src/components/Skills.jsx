@@ -19,7 +19,7 @@ function Skills() {
       </div>
       <h1 data-aos="zoom-in-up" className="text-2xl lg:text-5xl py-12 font-light tracking-widest">My <span
         className="text-secondary">Advantages</span></h1>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-between gap-8">
+      <div data-aos="zoom-in-up" className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-between gap-8">
         {
           skills && skills.map((skill, id) => <SkillView key={id} data={skill}></SkillView>)
         }
@@ -29,11 +29,25 @@ function Skills() {
 }
 
 const SkillView = ({ data }) => {
-  const {skill, img} = data;
+  const { skill, img } = data;
+  const defStyle = {
+    div: "border-[1px] border-gray-500",
+    img: "grayscale w-16"
+  };
+  const [style, setStyle] = useState(defStyle);
+
+  const handleHover = () => {
+    setStyle({
+      div: "border-2 border-secondary",
+      img: "w-20"
+    });
+  }
+  const handleRestore = () => setStyle(defStyle);
+  
   return (
-    <div data-aos="zoom-in-up"
-      className="flex flex-col items-center gap-5 border-[1px] border-gray-500 hover:border-secondary rounded-[5rem] p-10 h-48">
-      <img src={img} alt="" className="filter grayscale w-16 transition-all"></img>
+    <div onMouseEnter={handleHover} onMouseLeave={handleRestore}
+      className={style.div + " flex flex-col items-center gap-5 transition-all rounded-[5rem] p-10 h-48"}>
+      <img src={img} alt="" className={style.img + " filter transition-all"}></img>
       <h3 className="text-xl">{skill}</h3>
     </div>
   );
