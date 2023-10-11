@@ -30,7 +30,7 @@ function Specialization() {
 const SpecialView = ({ data }) => {
   const { area, info, link, count, img } = data;
   return (
-    <div data-aos="fade-up" className="flex justify-between items-start gap-x-4 border-[1px] border-gray-500 hover:border-secondary p-5 hover:p-7 transition-all rounded-3xl mb-4">
+    <div data-aos="fade-up" className="flex justify-between items-start gap-x-4 border-[1px] border-gray-500 hover:border-secondary p-5 rounded-3xl mb-4">
       <div className="flex flex-col gap-3 items-stretch">
         <h1 className="text-2xl">{area}</h1>
         <p className="text-gray-500 text-justify">{info}</p>

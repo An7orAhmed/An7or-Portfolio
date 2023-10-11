@@ -17,27 +17,27 @@ function BioInfo() {
         <div className="card-actions flex flex-col justify-center items-center">
           <div className="flex flex-wrap w-full mx-auto justify-evenly">
             <a href="https://facebook.com/An7orAhmed">
-              <div className="p-3 border-gray-400 hover:border-primary border-2 rounded-full m-auto">
+              <div className="p-3 border-white hover:border-secondary border-2 rounded-full m-auto">
                 <FaFacebook></FaFacebook>
               </div>
             </a>
             <a href="https://youtube.com/@An7orAhmed">
-              <div className="p-3 border-gray-400 hover:border-primary border-2 rounded-full m-auto">
+              <div className="p-3 border-white hover:border-secondary border-2 rounded-full m-auto">
                 <FaYoutube></FaYoutube>
               </div>
             </a>
             <a href="https://github.com/An7orAhmed">
-              <div className="p-3 border-gray-400 hover:border-primary border-2 rounded-full m-auto">
+              <div className="p-3 border-white hover:border-secondary border-2 rounded-full m-auto">
                 <FaGithub></FaGithub>
               </div>
             </a>
             <a href="https://linkedin.com/in/An7orAhmed">
-              <div className="p-3 border-gray-400 hover:border-primary border-2 rounded-full m-auto">
+              <div className="p-3 border-white hover:border-secondary border-2 rounded-full m-auto">
                 <FaLinkedin></FaLinkedin>
               </div>
             </a>
             <a href="https://leetcode.com/An7orAhmed">
-              <div className="p-3 border-gray-400 hover:border-primary border-2 rounded-full m-auto">
+              <div className="p-3 border-white hover:border-secondary border-2 rounded-full m-auto">
                 <FaCode></FaCode>
               </div>
             </a>

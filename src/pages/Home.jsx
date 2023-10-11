@@ -24,6 +24,7 @@ function Home() {
         <Education></Education>
         <Specialization></Specialization>
         <Skills></Skills>
+        
       </main>
     </div>
   );
