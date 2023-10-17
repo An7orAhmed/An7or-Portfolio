@@ -1,4 +1,4 @@
-import { FaFacebook, FaYoutube, FaGithub, FaLinkedin, FaCode, FaBusinessTime } from "react-icons/fa";
+import { FaFacebook, FaYoutube, FaGithub, FaLinkedin, FaCode } from "react-icons/fa";
 
 function BioInfo() {
   return (
@@ -42,14 +42,6 @@ function BioInfo() {
               </div>
             </a>
           </div><br></br>
-          <div className="flex gap-4 w-full">
-            <a href="https://drive.google.com/file/d/1j7fDhmbYtoLaEo5vKNlUUvVlU9X2l9H6/view?usp=sharing" className="btn flex-1 bg-primary text-white hover:text-primary mt-3 rounded-full">
-              Download CV
-            </a>
-            <button className="btn flex-1 bg-primary text-white hover:text-primary mt-3 rounded-full">
-              <FaBusinessTime></FaBusinessTime>HIRE ME
-            </button>
-          </div>
         </div>
       </div>
     </div>

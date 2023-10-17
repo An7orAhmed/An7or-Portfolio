@@ -1,4 +1,4 @@
-import { FaArrowDown, FaHome } from "react-icons/fa";
+import { FaArrowDown, FaHome, FaBusinessTime } from "react-icons/fa";
 
 function Introduce() {
   return (
@@ -19,15 +19,13 @@ function Introduce() {
           <img src="images/round-text.png" alt="" className="animate-spin-slow"></img>
         </div>
       </div>
-      <div className="flex gap-20 text-gray-400">
-        <h3 data-aos="zoom-out" className="leading-loose"><span className="text-7xl text-secondary">5+</span><br></br><br></br>
-          YEARS OF<br></br>
-          EXPERIENCE
-        </h3>
-        <h3 data-aos="zoom-out" className="leading-loose"><span className="text-7xl text-secondary">100+</span><br></br><br></br>
-          PROJECTS COMPLETED ON<br></br>
-          10+ COUNTRIES
-        </h3>
+      <div className="flex gap-4 pt-8">
+        <a href="https://drive.google.com/file/d/1j7fDhmbYtoLaEo5vKNlUUvVlU9X2l9H6/view?usp=sharing" className="btn bg-primary px-16 text-white hover:text-primary mt-3 rounded-full">
+          Download CV
+        </a>
+        <button className="btn bg-primary text-white hover:text-primary mt-3 rounded-full px-16">
+          <FaBusinessTime></FaBusinessTime>HIRE ME
+        </button>
       </div>
     </section>
   );
