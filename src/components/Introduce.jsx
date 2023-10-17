@@ -8,7 +8,7 @@ function Introduce() {
         <a href="#introduce">introduce</a>
       </div>
       <h1 data-aos="fade-left" className="text-5xl lg:text-8xl py-12 font-light tracking-wider">Hi from <span
-        className="text-secondary">Antor</span>,<br></br>Software Engineer<br></br>and Developer</h1>
+        className="text-secondary">Antor</span>,<br></br>A Bangladeshi<br></br> Software Engineer</h1>
       <p data-aos="fade-up" className="text-gray-400 tracking-wider leading-relaxed">I develop and code beautifully simple things and i love
         what i do.<br></br>Just simple like that!</p>
       <div data-aos="fade-right" className="flex justify-end">
@@ -19,7 +19,7 @@ function Introduce() {
           <img src="images/round-text.png" alt="" className="animate-spin-slow"></img>
         </div>
       </div>
-      <div className="flex gap-4 pt-8">
+      <div className="flex gap-6 pt-6">
         <a href="https://drive.google.com/file/d/1j7fDhmbYtoLaEo5vKNlUUvVlU9X2l9H6/view?usp=sharing" className="btn bg-primary px-16 text-white hover:text-primary mt-3 rounded-full">
           Download CV
         </a>
