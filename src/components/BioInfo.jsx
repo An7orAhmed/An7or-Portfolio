@@ -2,7 +2,7 @@ import { FaFacebook, FaYoutube, FaGithub, FaLinkedin, FaCode } from "react-icons
 
 function BioInfo() {
   return (
-    <div className="md:static lg:fixed card lg:max-w-sm lg:top-1/2 lg:-translate-y-1/2 mx-auto lg:ml-10 glass">
+    <div className="md:static lg:fixed card lg:max-w-sm lg:top-1/2 lg:-translate-y-1/2 lg:ml-10 glass">
       <div className="flex justify-between p-4 text-right">
         <h1 className="text-4xl font-bold">Antor<sup className="text-2xl font-light"> Ⓐ</sup></h1>
         <p className="text-gray-400 p-2">Software Engineer</p>

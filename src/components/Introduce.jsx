@@ -19,11 +19,11 @@ function Introduce() {
           <img src="images/round-text.png" alt="" className="animate-spin-slow"></img>
         </div>
       </div>
-      <div className="flex gap-6 pt-6">
-        <a href="https://drive.google.com/file/d/1j7fDhmbYtoLaEo5vKNlUUvVlU9X2l9H6/view?usp=sharing" className="btn bg-primary px-16 text-white hover:text-primary mt-3 rounded-full">
+      <div className="flex gap-6 pt-6 w-full justify-center lg:justify-start">
+        <a href="https://drive.google.com/file/d/1j7fDhmbYtoLaEo5vKNlUUvVlU9X2l9H6/view?usp=sharing" className="btn bg-primary px-10 lg:px-16 text-white hover:text-primary mt-3 rounded-full">
           Download CV
         </a>
-        <button className="btn bg-primary text-white hover:text-primary mt-3 rounded-full px-16">
+        <button className="btn bg-primary text-white hover:text-primary mt-3 rounded-full px-10 lg:px-16">
           <FaBusinessTime></FaBusinessTime>HIRE ME
         </button>
       </div>
