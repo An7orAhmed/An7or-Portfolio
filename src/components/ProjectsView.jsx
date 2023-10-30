@@ -1,9 +1,8 @@
 import { PiCertificateFill } from 'react-icons/pi';
 import { useEffect, useState } from "react";
 import { PropTypes } from 'prop-types';
-import { Link } from 'react-router-dom';
 
-function Portfolio() {
+function ProjectsView() {
   const [projects, setProjects] = useState(null);
 
   useEffect(() => {
@@ -24,13 +23,7 @@ function Portfolio() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         {
-          projects?.length > 4 ?
-            projects?.slice(0, 4).map((project, id) => <ProjectView key={id} data={project}></ProjectView>)
-            :
-            projects?.map((project, id) => <ProjectView key={id} data={project}></ProjectView>)
-        }
-        {
-          projects?.length > 4 && <Link to="/projects" className="md:col-span-2 mx-auto"><button className="btn btn-primary w-32">See All</button></Link>
+          projects?.map((project, id) => <ProjectView key={id} data={project}></ProjectView>)
         }
       </div>
     </section>
@@ -66,4 +59,4 @@ ProjectView.propTypes = {
   data: PropTypes.object
 };
 
-export default Portfolio;
+export default ProjectsView;
