@@ -12,13 +12,13 @@ function ProjectsView() {
   }, []);
 
   return (
-    <section className="py-14 lg:py-10" id="portfolio">
+    <section className="py-14 lg:py-10" id="projects">
       <div data-aos="fade-left" className="card flex-row items-center gap-3 glass rounded-full py-2 px-10 w-fit uppercase">
         <PiCertificateFill></PiCertificateFill>
-        <a href="#portfolio">Portfolio</a>
+        <a href="#projects">Projects</a>
       </div>
       <h1 data-aos="zoom-in-up" className="text-2xl lg:text-5xl py-12 font-light tracking-widest">
-        Featured <span className="text-secondary">Projects</span>
+        All <span className="text-secondary">Projects</span>
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">

@@ -26,5 +26,19 @@
     "tags": ["Flutter", "Firebase", "ESP32", "BLE"],
     "imgs": ["/projects/smart-home.png"],
     "link" : ""
+  },
+  {
+    "title": "Susastho Health App",
+    "description": "The Susastho Health App is a revolutionary Flutter application designed to simplify the process of seeking medical advice and conducting health checkups.",
+    "tags": ["Flutter", "Firebase", "Admin"],
+    "imgs": ["/projects/susastho.png"],
+    "link" : "https://github.com/An7orAhmed/Susastho-App"
+  },
+  {
+    "title": "IoT Smart Home",
+    "description": "A versatile Flutter application designed to bring modern technology and convenience to your living space.",
+    "tags": ["Flutter", "Firebase", "ESP32", "BLE"],
+    "imgs": ["/projects/smart-home.png"],
+    "link" : ""
   }
 ]
