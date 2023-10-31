@@ -96,5 +96,12 @@
     "tags": ["HTML", "CSS", "Tailwind", "JS", "React", "Express", "MongoDB", "Firebase"],
     "imgs": ["/projects/web-demo-10.png"],
     "link" : "https://demo-10-an7or.netlify.app"
+  },
+  {
+    "title": "Image Gallery",
+    "description": "A responsive grid layout image gallery.",
+    "tags": ["HTML", "CSS", "Tailwind", "JS", "React"],
+    "imgs": ["/projects/web-demo-11.png"],
+    "link" : "https://project-01-an7or.netlify.app"
   }
 ]
