@@ -31,7 +31,7 @@ function ProjectsView() {
   }
 
   return (
-    <section className="py-14 lg:py-10" id="projects">
+    <section className="py-3 lg:py-10" id="projects">
       <h1 data-aos="zoom-in-up" className="text-2xl lg:text-5xl pb-8 font-light tracking-widest">
         All <span className="text-secondary">Projects</span>
       </h1>
