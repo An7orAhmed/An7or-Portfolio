@@ -3,7 +3,7 @@ import BioInfo from './../components/BioInfo';
 
 function Projects() {
   return (
-    <div className="bg-background text-white">
+    <div className="bg-background text-white min-h-screen">
       <BioInfo></BioInfo>
       <main className="container mx-auto pl-4 lg:pl-96 pr-4 lg:pr-56 py-16">
         <ProjectsView></ProjectsView>

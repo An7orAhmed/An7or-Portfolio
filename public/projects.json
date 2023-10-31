@@ -28,17 +28,73 @@
     "link" : ""
   },
   {
-    "title": "Susastho Health App",
-    "description": "The Susastho Health App is a revolutionary Flutter application designed to simplify the process of seeking medical advice and conducting health checkups.",
-    "tags": ["Flutter", "Firebase", "Admin"],
-    "imgs": ["/projects/susastho.png"],
-    "link" : "https://github.com/An7orAhmed/Susastho-App"
+    "title": "Online Flower Shop",
+    "description": "This is my first web project.",
+    "tags": ["HTML", "CSS"],
+    "imgs": ["/projects/web-demo-1.png"],
+    "link" : "https://demo-01-an7or.netlify.app"
   },
   {
-    "title": "IoT Smart Home",
-    "description": "A versatile Flutter application designed to bring modern technology and convenience to your living space.",
-    "tags": ["Flutter", "Firebase", "ESP32", "BLE"],
-    "imgs": ["/projects/smart-home.png"],
-    "link" : ""
+    "title": "Gamer Landing Page",
+    "description": "Another complex web project I've been working on.",
+    "tags": ["HTML", "CSS"],
+    "imgs": ["/projects/web-demo-2.png"],
+    "link" : "https://demo-02-an7or.netlify.app"
+  },
+  {
+    "title": "Fruit Burst",
+    "description": "Introducing tailwind for the first time!",
+    "tags": ["HTML", "CSS", "Tailwind"],
+    "imgs": ["/projects/web-demo-3.png"],
+    "link" : "https://demo-03-an7or.netlify.app"
+  },
+  {
+    "title": "Learn JS",
+    "description": "Simple JS easy card to learn basics of JS",
+    "tags": ["HTML", "CSS", "Tailwind", "JS"],
+    "imgs": ["/projects/web-demo-4.png"],
+    "link" : "https://demo-04-an7or.netlify.app"
+  },
+  {
+    "title": "Summer Sale Landing Page",
+    "description": "A product site I developed with JS.",
+    "tags": ["HTML", "CSS", "Tailwind", "JS"],
+    "imgs": ["/projects/web-demo-5.png"],
+    "link" : "https://demo-05-an7or.netlify.app"
+  },
+  {
+    "title": "PH Tube",
+    "description": "A simple youtube like website.",
+    "tags": ["HTML", "CSS", "Tailwind", "JS"],
+    "imgs": ["/projects/web-demo-6.png"],
+    "link" : "https://demo-06-an7or.netlify.app"
+  },
+  {
+    "title": "Course Registration",
+    "description": "A simple cart system and product cards.",
+    "tags": ["HTML", "CSS", "Tailwind", "JS"],
+    "imgs": ["/projects/web-demo-7.png"],
+    "link" : "https://demo-07-an7or.netlify.app"
+  },
+  {
+    "title": "Donation System",
+    "description": "A simple website to collection docation from services.",
+    "tags": ["HTML", "CSS", "Tailwind", "JS", "React"],
+    "imgs": ["/projects/web-demo-8.png"],
+    "link" : "https://demo-08-an7or.netlify.app"
+  },
+  {
+    "title": "Coding Hero",
+    "description": "An online learning platform I developed.",
+    "tags": ["HTML", "CSS", "Tailwind", "JS", "React", "Firebase"],
+    "imgs": ["/projects/web-demo-9.png"],
+    "link" : "https://demo-09-an7or.netlify.app"
+  },
+  {
+    "title": "An7or Automative",
+    "description": "A responsive web app for selling branded cars.",
+    "tags": ["HTML", "CSS", "Tailwind", "JS", "React", "Express", "MongoDB", "Firebase"],
+    "imgs": ["/projects/web-demo-10.png"],
+    "link" : "https://demo-10-an7or.netlify.app"
   }
 ]

@@ -7,7 +7,7 @@ import { useState } from "react";
 
 function Rightbar() {
   const [color, setColor] = useState({
-    introduce: "text-secondary",
+    introduce: "text-gray-500",
     about: "text-gray-500",
     resume: "text-gray-500",
     services: "text-gray-500",
