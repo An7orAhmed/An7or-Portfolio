@@ -15,7 +15,7 @@ const Project = ({ data }) => {
           }
         </div>
       </figure>
-      <a href={link}>
+      <a href={link} target='_blank' rel="noreferrer">
         <div className="card-body">
           <h2 className="card-title">{title}</h2>
           <p>{description}</p>
