@@ -110,5 +110,12 @@
     "tags": ["HTML", "CSS", "Tailwind", "JS", "React", "Firebase", "Express"],
     "imgs": ["/projects/web-demo-12.png"],
     "link" : "https://demo-11-an7or.netlify.app"
+  },
+  {
+    "title": "JPods Hanging Bots",
+    "description": "JPods solar-powered mobility networks will change economic lifeblood from oil to ingenuity by solar-powering urban mobility within a solar budget.",
+    "tags": ["RPi", "MQTT", "Java", "Python", "Processing", "Arduino"],
+    "imgs": ["/projects/elec-project-01.png"],
+    "link" : "https://www.youtube.com/watch?v=3PBgbc6Aukw"
   }
 ]
